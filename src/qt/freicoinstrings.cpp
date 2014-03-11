@@ -5,172 +5,172 @@
 #else
 #define UNUSED
 #endif
-static const char UNUSED *freicoin_strings[] = {
-QT_TRANSLATE_NOOP("freicoin-core", ""
+static const char UNUSED *VertiCoin_strings[] = {
+QT_TRANSLATE_NOOP("VertiCoin-core", ""
 "%s, you must set a rpcpassword in the configuration file:\n"
 " %s\n"
 "It is recommended you use the following random password:\n"
-"rpcuser=freicoinrpc\n"
+"rpcuser=VertiCoinrpc\n"
 "rpcpassword=%s\n"
 "(you do not need to remember this password)\n"
 "If the file does not exist, create it with owner-readable-only file "
 "permissions.\n"),
-QT_TRANSLATE_NOOP("freicoin-core", ""
+QT_TRANSLATE_NOOP("VertiCoin-core", ""
 "Acceptable ciphers (default: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:"
 "@STRENGTH)"),
-QT_TRANSLATE_NOOP("freicoin-core", ""
+QT_TRANSLATE_NOOP("VertiCoin-core", ""
 "An error occurred while setting up the RPC port %u for listening on IPv4: %s"),
-QT_TRANSLATE_NOOP("freicoin-core", ""
+QT_TRANSLATE_NOOP("VertiCoin-core", ""
 "An error occurred while setting up the RPC port %u for listening on IPv6, "
 "falling back to IPv4: %s"),
-QT_TRANSLATE_NOOP("freicoin-core", ""
-"Cannot obtain a lock on data directory %s.  Freicoin is probably already "
+QT_TRANSLATE_NOOP("VertiCoin-core", ""
+"Cannot obtain a lock on data directory %s.  VertiCoin is probably already "
 "running."),
-QT_TRANSLATE_NOOP("freicoin-core", ""
+QT_TRANSLATE_NOOP("VertiCoin-core", ""
 "Detach block and address databases. Increases shutdown time (default: 0)"),
-QT_TRANSLATE_NOOP("freicoin-core", ""
+QT_TRANSLATE_NOOP("VertiCoin-core", ""
 "Error initializing database environment %s! To recover, BACKUP THAT "
 "DIRECTORY, then remove everything from it except for wallet.dat."),
-QT_TRANSLATE_NOOP("freicoin-core", ""
+QT_TRANSLATE_NOOP("VertiCoin-core", ""
 "Error: The transaction was rejected.  This might happen if some of the coins "
 "in your wallet were already spent, such as if you used a copy of wallet.dat "
 "and coins were spent in the copy but not marked as spent here."),
-QT_TRANSLATE_NOOP("freicoin-core", ""
+QT_TRANSLATE_NOOP("VertiCoin-core", ""
 "Error: This transaction requires a transaction fee of at least %s because of "
 "its amount, complexity, or use of recently received funds  "),
-QT_TRANSLATE_NOOP("freicoin-core", ""
+QT_TRANSLATE_NOOP("VertiCoin-core", ""
 "Execute command when the best block changes (%s in cmd is replaced by block "
 "hash)"),
-QT_TRANSLATE_NOOP("freicoin-core", ""
+QT_TRANSLATE_NOOP("VertiCoin-core", ""
 "Listen for JSON-RPC connections on <port> (default: 8638 or testnet: 18638)"),
-QT_TRANSLATE_NOOP("freicoin-core", ""
+QT_TRANSLATE_NOOP("VertiCoin-core", ""
 "Number of seconds to keep misbehaving peers from reconnecting (default: "
 "86400)"),
-QT_TRANSLATE_NOOP("freicoin-core", ""
+QT_TRANSLATE_NOOP("VertiCoin-core", ""
 "Set maximum size of high-priority/low-fee transactions in bytes (default: "
 "27000)"),
-QT_TRANSLATE_NOOP("freicoin-core", ""
-"Unable to bind to %s on this computer. Freicoin is probably already running."),
-QT_TRANSLATE_NOOP("freicoin-core", ""
+QT_TRANSLATE_NOOP("VertiCoin-core", ""
+"Unable to bind to %s on this computer. VertiCoin is probably already running."),
+QT_TRANSLATE_NOOP("VertiCoin-core", ""
 "Warning: -paytxfee is set very high! This is the transaction fee you will "
 "pay if you send a transaction."),
-QT_TRANSLATE_NOOP("freicoin-core", ""
+QT_TRANSLATE_NOOP("VertiCoin-core", ""
 "Warning: Displayed transactions may not be correct! You may need to upgrade, "
 "or other nodes may need to upgrade."),
-QT_TRANSLATE_NOOP("freicoin-core", ""
+QT_TRANSLATE_NOOP("VertiCoin-core", ""
 "Warning: Please check that your computer's date and time are correct! If "
-"your clock is wrong Freicoin will not work properly."),
-QT_TRANSLATE_NOOP("freicoin-core", ""
+"your clock is wrong VertiCoin will not work properly."),
+QT_TRANSLATE_NOOP("VertiCoin-core", ""
 "Warning: error reading wallet.dat! All keys read correctly, but transaction "
 "data or address book entries might be missing or incorrect."),
-QT_TRANSLATE_NOOP("freicoin-core", ""
+QT_TRANSLATE_NOOP("VertiCoin-core", ""
 "Warning: wallet.dat corrupt, data salvaged! Original wallet.dat saved as "
 "wallet.{timestamp}.bak in %s; if your balance or transactions are incorrect "
 "you should restore from a backup."),
-QT_TRANSLATE_NOOP("freicoin-core", ""
+QT_TRANSLATE_NOOP("VertiCoin-core", ""
 "You must set rpcpassword=<password> in the configuration file:\n"
 "%s\n"
 "If the file does not exist, create it with owner-readable-only file "
 "permissions."),
-QT_TRANSLATE_NOOP("freicoin-core", "Accept command line and JSON-RPC commands"),
-QT_TRANSLATE_NOOP("freicoin-core", "Accept connections from outside (default: 1 if no -proxy or -connect)"),
-QT_TRANSLATE_NOOP("freicoin-core", "Add a node to connect to and attempt to keep the connection open"),
-QT_TRANSLATE_NOOP("freicoin-core", "Allow DNS lookups for -addnode, -seednode and -connect"),
-QT_TRANSLATE_NOOP("freicoin-core", "Allow JSON-RPC connections from specified IP address"),
-QT_TRANSLATE_NOOP("freicoin-core", "Attempt to recover private keys from a corrupt wallet.dat"),
-QT_TRANSLATE_NOOP("freicoin-core", "Bind to given address. Use [host]:port notation for IPv6"),
-QT_TRANSLATE_NOOP("freicoin-core", "Block creation options:"),
-QT_TRANSLATE_NOOP("freicoin-core", "Cannot downgrade wallet"),
-QT_TRANSLATE_NOOP("freicoin-core", "Cannot initialize keypool"),
-QT_TRANSLATE_NOOP("freicoin-core", "Cannot resolve -bind address: '%s'"),
-QT_TRANSLATE_NOOP("freicoin-core", "Cannot resolve -externalip address: '%s'"),
-QT_TRANSLATE_NOOP("freicoin-core", "Cannot write default address"),
-QT_TRANSLATE_NOOP("freicoin-core", "Connect only to the specified node(s)"),
-QT_TRANSLATE_NOOP("freicoin-core", "Connect through socks proxy"),
-QT_TRANSLATE_NOOP("freicoin-core", "Connect to a node to retrieve peer addresses, and disconnect"),
-QT_TRANSLATE_NOOP("freicoin-core", "Discover own IP address (default: 1 when listening and no -externalip)"),
-QT_TRANSLATE_NOOP("freicoin-core", "Don't generate coins"),
-QT_TRANSLATE_NOOP("freicoin-core", "Done loading"),
-QT_TRANSLATE_NOOP("freicoin-core", "Error loading blkindex.dat"),
-QT_TRANSLATE_NOOP("freicoin-core", "Error loading wallet.dat"),
-QT_TRANSLATE_NOOP("freicoin-core", "Error loading wallet.dat: Wallet corrupted"),
-QT_TRANSLATE_NOOP("freicoin-core", "Error loading wallet.dat: Wallet requires newer version of Freicoin"),
-QT_TRANSLATE_NOOP("freicoin-core", "Error"),
-QT_TRANSLATE_NOOP("freicoin-core", "Error: Transaction creation failed  "),
-QT_TRANSLATE_NOOP("freicoin-core", "Error: Wallet locked, unable to create transaction  "),
-QT_TRANSLATE_NOOP("freicoin-core", "Error: could not start node"),
-QT_TRANSLATE_NOOP("freicoin-core", "Failed to listen on any port. Use -listen=0 if you want this."),
-QT_TRANSLATE_NOOP("freicoin-core", "Fee per KB to add to transactions you send"),
-QT_TRANSLATE_NOOP("freicoin-core", "Find peers using DNS lookup (default: 1 unless -connect)"),
-QT_TRANSLATE_NOOP("freicoin-core", "Find peers using internet relay chat (default: 0)"),
-QT_TRANSLATE_NOOP("freicoin-core", "Freicoin version"),
-QT_TRANSLATE_NOOP("freicoin-core", "Freicoin"),
-QT_TRANSLATE_NOOP("freicoin-core", "Generate coins"),
-QT_TRANSLATE_NOOP("freicoin-core", "Get help for a command"),
-QT_TRANSLATE_NOOP("freicoin-core", "How many blocks to check at startup (default: 2500, 0 = all)"),
-QT_TRANSLATE_NOOP("freicoin-core", "How thorough the block verification is (0-6, default: 1)"),
-QT_TRANSLATE_NOOP("freicoin-core", "Importing blockchain data file."),
-QT_TRANSLATE_NOOP("freicoin-core", "Importing bootstrap blockchain data file."),
-QT_TRANSLATE_NOOP("freicoin-core", "Imports blocks from external blk000?.dat file"),
-QT_TRANSLATE_NOOP("freicoin-core", "Insufficient funds"),
-QT_TRANSLATE_NOOP("freicoin-core", "Invalid -proxy address: '%s'"),
-QT_TRANSLATE_NOOP("freicoin-core", "Invalid -tor address: '%s'"),
-QT_TRANSLATE_NOOP("freicoin-core", "Invalid amount for -paytxfee=<amount>: '%s'"),
-QT_TRANSLATE_NOOP("freicoin-core", "Invalid amount"),
-QT_TRANSLATE_NOOP("freicoin-core", "List commands"),
-QT_TRANSLATE_NOOP("freicoin-core", "Listen for connections on <port> (default: 8639 or testnet: 18639)"),
-QT_TRANSLATE_NOOP("freicoin-core", "Loading addresses..."),
-QT_TRANSLATE_NOOP("freicoin-core", "Loading block index..."),
-QT_TRANSLATE_NOOP("freicoin-core", "Loading wallet..."),
-QT_TRANSLATE_NOOP("freicoin-core", "Maintain at most <n> connections to peers (default: 125)"),
-QT_TRANSLATE_NOOP("freicoin-core", "Maximum per-connection receive buffer, <n>*1000 bytes (default: 5000)"),
-QT_TRANSLATE_NOOP("freicoin-core", "Maximum per-connection send buffer, <n>*1000 bytes (default: 1000)"),
-QT_TRANSLATE_NOOP("freicoin-core", "Only connect to nodes in network <net> (IPv4, IPv6 or Tor)"),
-QT_TRANSLATE_NOOP("freicoin-core", "Options:"),
-QT_TRANSLATE_NOOP("freicoin-core", "Output extra debugging information. Implies all other -debug* options"),
-QT_TRANSLATE_NOOP("freicoin-core", "Output extra network debugging information"),
-QT_TRANSLATE_NOOP("freicoin-core", "Password for JSON-RPC connections"),
-QT_TRANSLATE_NOOP("freicoin-core", "Prepend debug output with timestamp"),
-QT_TRANSLATE_NOOP("freicoin-core", "Rescan the block chain for missing wallet transactions"),
-QT_TRANSLATE_NOOP("freicoin-core", "Rescanning..."),
-QT_TRANSLATE_NOOP("freicoin-core", "Run in the background as a daemon and accept commands"),
-QT_TRANSLATE_NOOP("freicoin-core", "SSL options: (see the Bitcoin Wiki for SSL setup instructions)"),
-QT_TRANSLATE_NOOP("freicoin-core", "Select the version of socks proxy to use (4-5, default: 5)"),
-QT_TRANSLATE_NOOP("freicoin-core", "Send command to -server or freicoind"),
-QT_TRANSLATE_NOOP("freicoin-core", "Send commands to node running on <ip> (default: 127.0.0.1)"),
-QT_TRANSLATE_NOOP("freicoin-core", "Send trace/debug info to console instead of debug.log file"),
-QT_TRANSLATE_NOOP("freicoin-core", "Send trace/debug info to debugger"),
-QT_TRANSLATE_NOOP("freicoin-core", "Sending..."),
-QT_TRANSLATE_NOOP("freicoin-core", "Server certificate file (default: server.cert)"),
-QT_TRANSLATE_NOOP("freicoin-core", "Server private key (default: server.pem)"),
-QT_TRANSLATE_NOOP("freicoin-core", "Set database cache size in megabytes (default: 25)"),
-QT_TRANSLATE_NOOP("freicoin-core", "Set database disk log size in megabytes (default: 100)"),
-QT_TRANSLATE_NOOP("freicoin-core", "Set key pool size to <n> (default: 100)"),
-QT_TRANSLATE_NOOP("freicoin-core", "Set maximum block size in bytes (default: 250000)"),
-QT_TRANSLATE_NOOP("freicoin-core", "Set minimum block size in bytes (default: 0)"),
-QT_TRANSLATE_NOOP("freicoin-core", "Shrink debug.log file on client startup (default: 1 when no -debug)"),
-QT_TRANSLATE_NOOP("freicoin-core", "Specify configuration file (default: freicoin.conf)"),
-QT_TRANSLATE_NOOP("freicoin-core", "Specify connection timeout in milliseconds (default: 5000)"),
-QT_TRANSLATE_NOOP("freicoin-core", "Specify data directory"),
-QT_TRANSLATE_NOOP("freicoin-core", "Specify pid file (default: freicoind.pid)"),
-QT_TRANSLATE_NOOP("freicoin-core", "Specify your own public address"),
-QT_TRANSLATE_NOOP("freicoin-core", "This help message"),
-QT_TRANSLATE_NOOP("freicoin-core", "Threshold for disconnecting misbehaving peers (default: 100)"),
-QT_TRANSLATE_NOOP("freicoin-core", "To use the %s option"),
-QT_TRANSLATE_NOOP("freicoin-core", "Unable to bind to %s on this computer (bind returned error %d, %s)"),
-QT_TRANSLATE_NOOP("freicoin-core", "Unknown -socks proxy version requested: %i"),
-QT_TRANSLATE_NOOP("freicoin-core", "Unknown network specified in -onlynet: '%s'"),
-QT_TRANSLATE_NOOP("freicoin-core", "Upgrade wallet to latest format"),
-QT_TRANSLATE_NOOP("freicoin-core", "Usage:"),
-QT_TRANSLATE_NOOP("freicoin-core", "Use OpenSSL (https) for JSON-RPC connections"),
-QT_TRANSLATE_NOOP("freicoin-core", "Use UPnP to map the listening port (default: 0)"),
-QT_TRANSLATE_NOOP("freicoin-core", "Use UPnP to map the listening port (default: 1 when listening)"),
-QT_TRANSLATE_NOOP("freicoin-core", "Use proxy to reach tor hidden services (default: same as -proxy)"),
-QT_TRANSLATE_NOOP("freicoin-core", "Use the test network"),
-QT_TRANSLATE_NOOP("freicoin-core", "Username for JSON-RPC connections"),
-QT_TRANSLATE_NOOP("freicoin-core", "Verifying database integrity..."),
-QT_TRANSLATE_NOOP("freicoin-core", "Wallet needed to be rewritten: restart Freicoin to complete"),
-QT_TRANSLATE_NOOP("freicoin-core", "Warning: Disk space is low!"),
-QT_TRANSLATE_NOOP("freicoin-core", "Warning: This version is obsolete, upgrade required!"),
-QT_TRANSLATE_NOOP("freicoin-core", "wallet.dat corrupt, salvage failed"),
+QT_TRANSLATE_NOOP("VertiCoin-core", "Accept command line and JSON-RPC commands"),
+QT_TRANSLATE_NOOP("VertiCoin-core", "Accept connections from outside (default: 1 if no -proxy or -connect)"),
+QT_TRANSLATE_NOOP("VertiCoin-core", "Add a node to connect to and attempt to keep the connection open"),
+QT_TRANSLATE_NOOP("VertiCoin-core", "Allow DNS lookups for -addnode, -seednode and -connect"),
+QT_TRANSLATE_NOOP("VertiCoin-core", "Allow JSON-RPC connections from specified IP address"),
+QT_TRANSLATE_NOOP("VertiCoin-core", "Attempt to recover private keys from a corrupt wallet.dat"),
+QT_TRANSLATE_NOOP("VertiCoin-core", "Bind to given address. Use [host]:port notation for IPv6"),
+QT_TRANSLATE_NOOP("VertiCoin-core", "Block creation options:"),
+QT_TRANSLATE_NOOP("VertiCoin-core", "Cannot downgrade wallet"),
+QT_TRANSLATE_NOOP("VertiCoin-core", "Cannot initialize keypool"),
+QT_TRANSLATE_NOOP("VertiCoin-core", "Cannot resolve -bind address: '%s'"),
+QT_TRANSLATE_NOOP("VertiCoin-core", "Cannot resolve -externalip address: '%s'"),
+QT_TRANSLATE_NOOP("VertiCoin-core", "Cannot write default address"),
+QT_TRANSLATE_NOOP("VertiCoin-core", "Connect only to the specified node(s)"),
+QT_TRANSLATE_NOOP("VertiCoin-core", "Connect through socks proxy"),
+QT_TRANSLATE_NOOP("VertiCoin-core", "Connect to a node to retrieve peer addresses, and disconnect"),
+QT_TRANSLATE_NOOP("VertiCoin-core", "Discover own IP address (default: 1 when listening and no -externalip)"),
+QT_TRANSLATE_NOOP("VertiCoin-core", "Don't generate coins"),
+QT_TRANSLATE_NOOP("VertiCoin-core", "Done loading"),
+QT_TRANSLATE_NOOP("VertiCoin-core", "Error loading blkindex.dat"),
+QT_TRANSLATE_NOOP("VertiCoin-core", "Error loading wallet.dat"),
+QT_TRANSLATE_NOOP("VertiCoin-core", "Error loading wallet.dat: Wallet corrupted"),
+QT_TRANSLATE_NOOP("VertiCoin-core", "Error loading wallet.dat: Wallet requires newer version of VertiCoin"),
+QT_TRANSLATE_NOOP("VertiCoin-core", "Error"),
+QT_TRANSLATE_NOOP("VertiCoin-core", "Error: Transaction creation failed  "),
+QT_TRANSLATE_NOOP("VertiCoin-core", "Error: Wallet locked, unable to create transaction  "),
+QT_TRANSLATE_NOOP("VertiCoin-core", "Error: could not start node"),
+QT_TRANSLATE_NOOP("VertiCoin-core", "Failed to listen on any port. Use -listen=0 if you want this."),
+QT_TRANSLATE_NOOP("VertiCoin-core", "Fee per KB to add to transactions you send"),
+QT_TRANSLATE_NOOP("VertiCoin-core", "Find peers using DNS lookup (default: 1 unless -connect)"),
+QT_TRANSLATE_NOOP("VertiCoin-core", "Find peers using internet relay chat (default: 0)"),
+QT_TRANSLATE_NOOP("VertiCoin-core", "VertiCoin version"),
+QT_TRANSLATE_NOOP("VertiCoin-core", "VertiCoin"),
+QT_TRANSLATE_NOOP("VertiCoin-core", "Generate coins"),
+QT_TRANSLATE_NOOP("VertiCoin-core", "Get help for a command"),
+QT_TRANSLATE_NOOP("VertiCoin-core", "How many blocks to check at startup (default: 2500, 0 = all)"),
+QT_TRANSLATE_NOOP("VertiCoin-core", "How thorough the block verification is (0-6, default: 1)"),
+QT_TRANSLATE_NOOP("VertiCoin-core", "Importing blockchain data file."),
+QT_TRANSLATE_NOOP("VertiCoin-core", "Importing bootstrap blockchain data file."),
+QT_TRANSLATE_NOOP("VertiCoin-core", "Imports blocks from external blk000?.dat file"),
+QT_TRANSLATE_NOOP("VertiCoin-core", "Insufficient funds"),
+QT_TRANSLATE_NOOP("VertiCoin-core", "Invalid -proxy address: '%s'"),
+QT_TRANSLATE_NOOP("VertiCoin-core", "Invalid -tor address: '%s'"),
+QT_TRANSLATE_NOOP("VertiCoin-core", "Invalid amount for -paytxfee=<amount>: '%s'"),
+QT_TRANSLATE_NOOP("VertiCoin-core", "Invalid amount"),
+QT_TRANSLATE_NOOP("VertiCoin-core", "List commands"),
+QT_TRANSLATE_NOOP("VertiCoin-core", "Listen for connections on <port> (default: 8639 or testnet: 18639)"),
+QT_TRANSLATE_NOOP("VertiCoin-core", "Loading addresses..."),
+QT_TRANSLATE_NOOP("VertiCoin-core", "Loading block index..."),
+QT_TRANSLATE_NOOP("VertiCoin-core", "Loading wallet..."),
+QT_TRANSLATE_NOOP("VertiCoin-core", "Maintain at most <n> connections to peers (default: 125)"),
+QT_TRANSLATE_NOOP("VertiCoin-core", "Maximum per-connection receive buffer, <n>*1000 bytes (default: 5000)"),
+QT_TRANSLATE_NOOP("VertiCoin-core", "Maximum per-connection send buffer, <n>*1000 bytes (default: 1000)"),
+QT_TRANSLATE_NOOP("VertiCoin-core", "Only connect to nodes in network <net> (IPv4, IPv6 or Tor)"),
+QT_TRANSLATE_NOOP("VertiCoin-core", "Options:"),
+QT_TRANSLATE_NOOP("VertiCoin-core", "Output extra debugging information. Implies all other -debug* options"),
+QT_TRANSLATE_NOOP("VertiCoin-core", "Output extra network debugging information"),
+QT_TRANSLATE_NOOP("VertiCoin-core", "Password for JSON-RPC connections"),
+QT_TRANSLATE_NOOP("VertiCoin-core", "Prepend debug output with timestamp"),
+QT_TRANSLATE_NOOP("VertiCoin-core", "Rescan the block chain for missing wallet transactions"),
+QT_TRANSLATE_NOOP("VertiCoin-core", "Rescanning..."),
+QT_TRANSLATE_NOOP("VertiCoin-core", "Run in the background as a daemon and accept commands"),
+QT_TRANSLATE_NOOP("VertiCoin-core", "SSL options: (see the Bitcoin Wiki for SSL setup instructions)"),
+QT_TRANSLATE_NOOP("VertiCoin-core", "Select the version of socks proxy to use (4-5, default: 5)"),
+QT_TRANSLATE_NOOP("VertiCoin-core", "Send command to -server or VertiCoind"),
+QT_TRANSLATE_NOOP("VertiCoin-core", "Send commands to node running on <ip> (default: 127.0.0.1)"),
+QT_TRANSLATE_NOOP("VertiCoin-core", "Send trace/debug info to console instead of debug.log file"),
+QT_TRANSLATE_NOOP("VertiCoin-core", "Send trace/debug info to debugger"),
+QT_TRANSLATE_NOOP("VertiCoin-core", "Sending..."),
+QT_TRANSLATE_NOOP("VertiCoin-core", "Server certificate file (default: server.cert)"),
+QT_TRANSLATE_NOOP("VertiCoin-core", "Server private key (default: server.pem)"),
+QT_TRANSLATE_NOOP("VertiCoin-core", "Set database cache size in megabytes (default: 25)"),
+QT_TRANSLATE_NOOP("VertiCoin-core", "Set database disk log size in megabytes (default: 100)"),
+QT_TRANSLATE_NOOP("VertiCoin-core", "Set key pool size to <n> (default: 100)"),
+QT_TRANSLATE_NOOP("VertiCoin-core", "Set maximum block size in bytes (default: 250000)"),
+QT_TRANSLATE_NOOP("VertiCoin-core", "Set minimum block size in bytes (default: 0)"),
+QT_TRANSLATE_NOOP("VertiCoin-core", "Shrink debug.log file on client startup (default: 1 when no -debug)"),
+QT_TRANSLATE_NOOP("VertiCoin-core", "Specify configuration file (default: VertiCoin.conf)"),
+QT_TRANSLATE_NOOP("VertiCoin-core", "Specify connection timeout in milliseconds (default: 5000)"),
+QT_TRANSLATE_NOOP("VertiCoin-core", "Specify data directory"),
+QT_TRANSLATE_NOOP("VertiCoin-core", "Specify pid file (default: VertiCoind.pid)"),
+QT_TRANSLATE_NOOP("VertiCoin-core", "Specify your own public address"),
+QT_TRANSLATE_NOOP("VertiCoin-core", "This help message"),
+QT_TRANSLATE_NOOP("VertiCoin-core", "Threshold for disconnecting misbehaving peers (default: 100)"),
+QT_TRANSLATE_NOOP("VertiCoin-core", "To use the %s option"),
+QT_TRANSLATE_NOOP("VertiCoin-core", "Unable to bind to %s on this computer (bind returned error %d, %s)"),
+QT_TRANSLATE_NOOP("VertiCoin-core", "Unknown -socks proxy version requested: %i"),
+QT_TRANSLATE_NOOP("VertiCoin-core", "Unknown network specified in -onlynet: '%s'"),
+QT_TRANSLATE_NOOP("VertiCoin-core", "Upgrade wallet to latest format"),
+QT_TRANSLATE_NOOP("VertiCoin-core", "Usage:"),
+QT_TRANSLATE_NOOP("VertiCoin-core", "Use OpenSSL (https) for JSON-RPC connections"),
+QT_TRANSLATE_NOOP("VertiCoin-core", "Use UPnP to map the listening port (default: 0)"),
+QT_TRANSLATE_NOOP("VertiCoin-core", "Use UPnP to map the listening port (default: 1 when listening)"),
+QT_TRANSLATE_NOOP("VertiCoin-core", "Use proxy to reach tor hidden services (default: same as -proxy)"),
+QT_TRANSLATE_NOOP("VertiCoin-core", "Use the test network"),
+QT_TRANSLATE_NOOP("VertiCoin-core", "Username for JSON-RPC connections"),
+QT_TRANSLATE_NOOP("VertiCoin-core", "Verifying database integrity..."),
+QT_TRANSLATE_NOOP("VertiCoin-core", "Wallet needed to be rewritten: restart VertiCoin to complete"),
+QT_TRANSLATE_NOOP("VertiCoin-core", "Warning: Disk space is low!"),
+QT_TRANSLATE_NOOP("VertiCoin-core", "Warning: This version is obsolete, upgrade required!"),
+QT_TRANSLATE_NOOP("VertiCoin-core", "wallet.dat corrupt, salvage failed"),
 };

@@ -16,7 +16,7 @@ QT_BEGIN_NAMESPACE
 class QUrl;
 QT_END_NAMESPACE
 
-/** Dialog for sending freicoins */
+/** Dialog for sending VertiCoins */
 class SendCoinsDialog : public QDialog
 {
     Q_OBJECT

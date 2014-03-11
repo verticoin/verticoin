@@ -1,20 +1,20 @@
-#ifndef FREICOINUNITS_H
-#define FREICOINUNITS_H
+#ifndef VertiCoinUNITS_H
+#define VertiCoinUNITS_H
 
 #include "bignum.h" // for mpq
 
 #include <QString>
 #include <QAbstractListModel>
 
-/** Freicoin unit definitions. Encapsulates parsing and formatting
+/** VertiCoin unit definitions. Encapsulates parsing and formatting
    and serves as list model for dropdown selection boxes.
 */
-class FreicoinUnits: public QAbstractListModel
+class VertiCoinUnits: public QAbstractListModel
 {
 public:
-    explicit FreicoinUnits(QObject *parent);
+    explicit VertiCoinUnits(QObject *parent);
 
-    /** Freicoin units.
+    /** VertiCoin units.
       @note Source: https://en.bitcoin.it/wiki/Units . Please add only sensible ones
      */
     enum Unit
@@ -61,8 +61,8 @@ public:
     QVariant data(const QModelIndex &index, int role) const;
     ///@}
 private:
-    QList<FreicoinUnits::Unit> unitlist;
+    QList<VertiCoinUnits::Unit> unitlist;
 };
-typedef FreicoinUnits::Unit FreicoinUnit;
+typedef VertiCoinUnits::Unit VertiCoinUnit;
 
-#endif // FREICOINUNITS_H
+#endif // VertiCoinUNITS_H
